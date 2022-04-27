@@ -1,0 +1,17 @@
+:root{
+    --highlight: yellow;
+    --main: white;
+    --accent: rgb(93, 105, 107);
+}
+
+*, html, body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );
+    height: 100vh;
+    background-attachment: fixed;
+}
