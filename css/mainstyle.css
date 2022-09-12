@@ -143,9 +143,23 @@ ul li{
 .about{
     color: var(--mainLight);
     padding: 15px;
-    line-height: 1.5em;
+    line-height: 2em;
+    width: 90%;
+    margin: auto;
 }
 
 .about h2{
     font-weight: 400;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.about p{
+    font-weight: 200;
+    font-size: 24px;
+    columns: 2;
+}
+
+.about a{
+    color: var(--highlight);
 }
