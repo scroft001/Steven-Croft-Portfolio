@@ -109,15 +109,17 @@ a:hover{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    margin-top: 55px;
+    margin-bottom: 55px;
 }
 
 .skillCard{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     width: 30%;
     min-height: 200px;
     background-color: var(--mainLight);
@@ -138,18 +140,19 @@ ul li{
 
 .skillCard h2{
     font-family: 'Exo 2', sans-serif;
+    margin-bottom: 10px;
 }
 
 .about{
     color: var(--mainLight);
-    padding: 15px;
+    padding: 25px;
     line-height: 2em;
-    width: 90%;
+    width: 100%;
     margin: auto;
 }
 
 .about h2{
-    font-weight: 400;
+    font-weight: 500;
     font-size: 32px;
     margin-bottom: 10px;
 }
@@ -162,4 +165,8 @@ ul li{
 
 .about a{
     color: var(--highlight);
+}
+
+.portfolioGrid {
+    padding: 25px;
 }
