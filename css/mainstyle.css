@@ -166,7 +166,3 @@ ul li{
 .about a{
     color: var(--highlight);
 }
-
-.portfolioGrid {
-    padding: 25px;
-}
