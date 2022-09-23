@@ -143,6 +143,10 @@ ul li{
     margin-bottom: 10px;
 }
 
+.skillCard img{
+    width: 100%;
+}
+
 .about{
     color: var(--mainLight);
     padding: 25px;
