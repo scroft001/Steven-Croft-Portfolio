@@ -85,12 +85,12 @@ a:hover{
 }
 
 .btn{
-    width: 80%;
+    width: 60%;
     background-color: var(--highlight);
     color: var(--mainDark);
     text-align: center;
     padding: 5px;
-    margin: 10px;
+    margin-top: 10px;
     font-size: 24px;
     transition: box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
