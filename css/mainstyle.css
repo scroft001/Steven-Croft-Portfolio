@@ -85,7 +85,7 @@ a:hover{
 }
 
 .btn{
-    width: 60%;
+    width: 55%;
     background-color: var(--highlight);
     color: var(--mainDark);
     text-align: center;
